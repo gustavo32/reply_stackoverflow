@@ -643,7 +643,6 @@ p {
   color: rgb(36, 39, 41) !important;
 }
 
-
 .navbar {
   margin: auto;
   position: fixed;
@@ -711,7 +710,7 @@ p {
   border: 1px solid #fafafb;
   margin: 0;
   position: relative;
-  top: -2px;
+  float: left;
 }
 .menuButton:hover {
   background-color: #eaeaeb;
@@ -847,6 +846,7 @@ p {
     position: relative;
   }
 }
+
 @media screen and (max-width: 640px) {
   .whiteButton {
     display: none;
